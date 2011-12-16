@@ -1,0 +1,25 @@
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>LIME IPTV Portal</title>
+    <style>
+    .black {
+      color-index:0;
+    }
+    .on-white {
+     background-color-index:7;
+    }
+    .A1 {
+      left: 12px;
+      top: 12px;
+    }
+    .row {
+      width: 936px;
+      height: 26px;
+    }
+    </style>
+  </head>
+  <body>
+    <p class="A1 black on-white row">LIME IPTV Portal</p>
+  </body>
+</bml>

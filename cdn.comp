@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdn_main>
+	<header>
+		<cdn_serial>2011121301</cdn_serial>
+	</header>
+	<cdn_name>LIME IPTV CDN</cdn_name>
+	<switch_control_flag>0</switch_control_flag>
+	<sntp>
+		<sntp_server>time.nist.gov</sntp_server>
+		<time_polarity>1</time_polarity>
+		<time_delay>0900</time_delay>
+	</sntp>
+	<platform_list>
+		<platform>
+			<network_id>1234</network_id>
+			<platform_name>LIME IPTV Platform</platform_name>
+			<pf_url>http://cdn.iptvf.jp/platform/</pf_url>
+			<pf_serial>2011121301</pf_serial>
+		</platform>
+	</platform_list>
+	<bs_ip_broadcaster_list>
+		<bs_ip_broadcaster>
+			<bs_ip_broadcaster_name>LIME BS IP Broadcast</bs_ip_broadcaster_name>
+			<bs_ip_broadcaster_url>http://cdn.iptvf.jp/platform/missing/bs/</bs_ip_broadcaster_url>
+			<bs_ip_broadcaster_serial>2011121301</bs_ip_broadcaster_serial>
+		</bs_ip_broadcaster>
+	</bs_ip_broadcaster_list>
+</cdn_main>

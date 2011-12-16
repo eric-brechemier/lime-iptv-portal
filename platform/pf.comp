@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<platform_main>
+	<header>
+		<pf_serial>2011121301</pf_serial>
+	</header>
+	<platform_name>LIME IPTV Platform</platform_name>
+	<logo_url>http://cdn.iptvf.jp/platform/logo/logo2011121301.comp</logo_url>
+	<drm_provider_id>0103</drm_provider_id>
+	<ip_broadcast_service>
+		<network_id>1234</network_id>
+		<si_stream>
+			<ip_protocol>1</ip_protocol>
+			<channel_signaling>1</channel_signaling>
+			<stream_port_number>30004</stream_port_number>
+			<multicast_address>ff38::100</multicast_address>
+			<source_address>2a01:e35:2eaf:5a60:20a:e4ff:fea7:c719</source_address>
+		</si_stream>
+	</ip_broadcast_service>
+	<service_provider_list>
+		<service_provider>
+			<ip_service_provider_id>00</ip_service_provider_id>
+			<service_provider_name>LIME IPTV Platform</service_provider_name>
+			<ip_broadcaster_id>01</ip_broadcaster_id>
+			<authority>cdn.iptvf.jp</authority>
+			<portal_url>http://cdn.iptvf.jp/bml/</portal_url>
+			<meta_url>http://cdn.iptvf.jp/platform/missing/metaurl</meta_url>
+			<purchase_package_info_url>http://cdn.iptvf.jp/platform/missing/purchase/</purchase_package_info_url>
+			<license_update_info_url>https://cdn.plala.iptvf.jp/platform/missing/mc/update/check</license_update_info_url>
+			<crl_url>http://cdn.iptvf.jp/platform/missing/crl/iptvcrls.crl</crl_url>
+		</service_provider>
+	</service_provider_list>
+	<extended>
+	<item>
+		<name>HDPF_TCX</name>
+		<value>http://cdn.iptvf.jp/platform/missing/hdpf_tcx.xml</value>
+	</item>
+	<item>
+		<name>DEFAULT_CHANNEL</name>
+		<value>101</value>
+	</item>
+	<item>
+		<name>DATA_BROADCAST_CLASSIFY</name>
+		<value>http://cdn.iptvf.jp/platform/missing/data_broadcast.csv</value>
+	</item>
+	</extended>
+</platform_main>
