@@ -15,7 +15,7 @@ LANGUAGES
 DESCRIPTION
 
   The LIME IPTV Portal provides an open entry point for the development of
-  applications or sites for Next Generation Connected TVs as available in
+  applications or sites for Next Generation Connected TVs now available in
   Japan and other countries.
 
   I started this project after winning a Best Application award at the IPTV
