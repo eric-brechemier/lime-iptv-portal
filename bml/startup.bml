@@ -4,7 +4,31 @@
     <title>LIME IPTV Portal</title>
     <link rel="stylesheet" href="css/tv.css" />
   </head>
-  <body>
-    <p class="colA row1 black on-white on-27cols on-1row">LIME IPTV Portal</p>
+  <body class="on-purple">
+    <div class="colA row1 on-blue on-27cols on-1row"></div>
+    <p class="colA row1 white on-blue on-26cols on-1row align-center"
+      >LIME IPTV Portal</p>
+
+    <p class="colA row2 on-2cols on-1row align-right white">URL:</p>
+    <div class="colC row2 on-20cols on-1row">
+      <input type="text" value="http://"
+        class="black border on-white on-20cols on-1row link1"
+      />
+    </div>
+    <p class="colW row2 on-2cols on-1row border white on-dark-gray align-center"
+      >OK</p>
+
+    <div class="colA row4 on-white on-27cols on-10rows"></div>
+    <p class="colC row5 on-27cols on-1row">
+      <a href="http://alevemine.com/AleveLIME-Site/startup.bml"
+        class="blue underline on-27cols on-1row link2">Aleve Mine</a>
+    </p>
+    <p class="colC row6 on-27cols on-1row">
+      <a href="http://eric-brechemier.github.com/lime-starter-kit/lab/startup.bml"
+        class="blue underline on-27cols on-1row link3">LIME Starter Kit (Lab)</a>
+    </p>
+
+    <p class="colA row15 on-27cols on-10rows align-right white"
+      >Contact: lime@eric.brechemier.name</p>
   </body>
 </bml>
