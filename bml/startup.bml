@@ -4,15 +4,21 @@
     <title>LIME IPTV Portal</title>
     <link rel="stylesheet" href="css/tv.css" />
     <style>
-    a:focus, *:focus {
-      color-index: 0; border-top-color-index: 0; border-right-color-index: 0; border-bottom-color-index: 0; border-left-color-index: 0;
-      background-color-index: 7;
+    input:focus {
+      color-index: 7; grayscale-color-index: 7 7;
+      border-top-color-index: 53; border-right-color-index: 53; border-bottom-color-index: 53; border-left-color-index: 53;
+      background-color-index: 57;
+    }
+    a:focus {
+      color-index: 7; grayscale-color-index: 7 7;
+      border-top-color-index: 53; border-right-color-index: 53; border-bottom-color-index: 53; border-left-color-index: 53;
+      background-color-index: 57;
     }
     .button {
       color-index: 7;
     }
     .button:focus {
-      border-top-color-index: 8; border-right-color-index: 8; border-bottom-color-index: 8; border-left-color-index: 8;
+      border-top-color-index: 53; border-right-color-index: 53; border-bottom-color-index: 53; border-left-color-index: 53;
     }
     </style>
     <script>
@@ -45,9 +51,8 @@
       />
     </div>
 
-    <div class="colT row2 on-2cols on-1row border white on-dark-gray "></div>
-    <p class="colT row2 on-2cols on-1row white align-center">
-      <a href="startup.bml" class="button link2" id="go">Go!</a>
+    <p class="colT row2 on-3cols on-1row">
+      <a href="startup.bml" class="white border button link2" id="go">~Go!~</a>
     </p>
 
     <div class="colA row4 on-white on-27cols on-10rows"></div>
