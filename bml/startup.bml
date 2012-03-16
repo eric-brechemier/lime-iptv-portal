@@ -8,7 +8,10 @@
       return document.getElementById(id);
     }
     function updateUrl(){
-      $('go').href = $('url').value;
+      var newUrl = $('url').value;
+      if (newUrl != ""){
+        $('go').href = "http://"+newUrl;
+      }
     }
     </script>
   </head>
@@ -17,19 +20,25 @@
     <p class="colA row1 white on-blue on-26cols on-1row align-center"
       >LIME IPTV Portal</p>
 
-    <p class="colA row2 on-2cols on-1row align-right white">URL:</p>
-    <div class="colC row2 on-20cols on-1row">
+    <p class="colA row2 on-2cols on-1row align-right white"
+      >URL:</p>
+    <p class="colC row2 on-3cols on-1row align-right white"
+      >http://</p>
+    <div class="colF row2 on-14cols on-1row">
       <input type="text"
-        inputmode="direct" maxlength="200"
-        value="http://alevemine.com/AleveLIME-Site/startup.bml"
-        class="black border on-white on-20cols on-1row link1"
+        maxlength="40" inputmode="indirect"
+        value=""
+        class="black border on-white on-14cols on-1row link1"
         id="url" onblur="updateUrl();"
       />
     </div>
 
-    <div class="colW row2 on-2cols on-1row border white on-dark-gray "></div>
-    <p class="colW row2 on-2cols on-1row align-center">
-      <a href="http://" id="go" class="white link2">Go</a>
+    <div class="colT row2 on-2cols on-1row border white on-dark-gray "></div>
+    <p class="colT row2 on-2cols on-1row align-center">
+      <a href="startup.bml"
+        class="white link2"
+        id="go"
+      >Go!</a>
     </p>
 
     <div class="colA row4 on-white on-27cols on-10rows"></div>
