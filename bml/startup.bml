@@ -32,6 +32,15 @@
         $('go').href = "http://"+newUrl;
       }
     }
+    function onInputFocus(){
+      $('protocol').normalStyle.colorIndex = 7;
+      $('protocol').normalStyle.grayScaleColorIndex = "7 7";
+    }
+    function onInputBlur(){
+      $('protocol').normalStyle.colorIndex = 0;
+      $('protocol').normalStyle.grayScaleColorIndex = "0 0";
+      updateUrl();
+    }
     </script>
   </head>
   <body class="on-purple">
@@ -42,13 +51,13 @@
     <p class="colA row2 on-2cols on-1row align-right white"
       >URL:</p>
     <p class="colC row2 on-3cols on-1row align-right white"
-      >http://</p>
+      id="protocol">http://</p>
     <div class="colF row2 on-14cols on-1row">
       <input type="text"
         maxlength="40" inputmode="indirect"
         value="192.168.0.11/bml/startup.bml"
         class="black border on-white on-14cols on-1row link1 above-link3 after-link4"
-        id="url" onblur="updateUrl();"
+        id="url" onfocus="onInputFocus();" onblur="onInputBlur();"
       />
     </div>
 
