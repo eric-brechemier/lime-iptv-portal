@@ -3,17 +3,12 @@
   <head>
     <title>LIME IPTV Portal</title>
     <link rel="stylesheet" href="css/tv.css" />
-    <style>
-    .button:focus {
-      background-color-index: 15;
-    }
-    .button:active {
-      color-index: 63; border-top-color-index: 63; border-right-color-index: 63; border-bottom-color-index: 63; border-left-color-index: 63;
-    }
-    </style>
     <script>
-    function goToUrl(){
-      browser.launchDocument( document.getElementById('url').value );
+    function $(id){
+      return document.getElementById(id);
+    }
+    function updateUrl(){
+      $('go').href = $('url').value;
     }
     </script>
   </head>
@@ -24,23 +19,27 @@
 
     <p class="colA row2 on-2cols on-1row align-right white">URL:</p>
     <div class="colC row2 on-20cols on-1row">
-      <input type="text" value="http://"
-        id="url"
+      <input type="text"
+        inputmode="direct" maxlength="200"
+        value="http://alevemine.com/AleveLIME-Site/startup.bml"
         class="black border on-white on-20cols on-1row link1"
+        id="url" onblur="updateUrl();"
       />
     </div>
-    <p class="colW row2 on-2cols on-1row border white on-dark-gray align-center button link2"
-      onclick="goToUrl();"
-      >OK</p>
+
+    <div class="colW row2 on-2cols on-1row border white on-dark-gray "></div>
+    <p class="colW row2 on-2cols on-1row align-center">
+      <a href="http://" id="go" class="white link2">Go</a>
+    </p>
 
     <div class="colA row4 on-white on-27cols on-10rows"></div>
     <p class="colC row5 on-27cols on-1row">
       <a href="http://alevemine.com/AleveLIME-Site/startup.bml"
-        class="blue underline on-27cols on-1row link3">Aleve Mine</a>
+        class="blue underline link3">Aleve Mine</a>
     </p>
     <p class="colC row6 on-27cols on-1row">
       <a href="http://eric-brechemier.github.com/lime-starter-kit/lab/startup.bml"
-        class="blue underline on-27cols on-1row link4">LIME Starter Kit (Lab)</a>
+        class="blue underline link4">LIME Starter Kit (Lab)</a>
     </p>
 
     <p class="colA row15 on-27cols on-10rows align-right white"

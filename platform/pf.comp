@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <platform_main>
 	<header>
-		<pf_serial>2011121301</pf_serial>
+		<pf_serial>2012031601</pf_serial>
 	</header>
 	<platform_name>LIME IPTV Platform</platform_name>
 	<logo_url>http://cdn.iptvf.jp/platform/logo/logo2011121301.comp</logo_url>
