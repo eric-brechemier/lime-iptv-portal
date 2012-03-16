@@ -51,8 +51,8 @@
       />
     </div>
 
-    <p class="colT row2 on-2cols on-1row">
-      <a href="startup.bml" class="white border button link2" id="go">Go!</a>
+    <p class="colT row2 on-3cols on-1row">
+      <a href="startup.bml" class="white border button link2" id="go">~Go!~</a>
     </p>
 
     <div class="colA row4 on-white on-27cols on-10rows"></div>
