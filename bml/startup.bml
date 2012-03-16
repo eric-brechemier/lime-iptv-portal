@@ -25,6 +25,7 @@
     <p class="colA row2 on-2cols on-1row align-right white">URL:</p>
     <div class="colC row2 on-20cols on-1row">
       <input type="text" value="http://"
+        inputmode="direct" maxlength="200"
         id="url"
         class="black border on-white on-20cols on-1row link1"
       />
