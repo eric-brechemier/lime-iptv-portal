@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <platform_main>
 	<header>
-		<pf_serial>2012031601</pf_serial>
+		<pf_serial>2012060401</pf_serial>
 	</header>
 	<platform_name>LIME IPTV Platform</platform_name>
-	<logo_url>http://cdn.iptvf.jp/platform/logo/logo2011121301.comp</logo_url>
+	<logo_url>http://cdn.iptvf.jp/platform/logo/logo2012060401.comp</logo_url>
 	<drm_provider_id>0103</drm_provider_id>
 	<ip_broadcast_service>
 		<network_id>1234</network_id>
@@ -25,7 +25,7 @@
 			<portal_url>http://cdn.iptvf.jp/bml/</portal_url>
 			<meta_url>http://cdn.iptvf.jp/platform/missing/metaurl</meta_url>
 			<purchase_package_info_url>http://cdn.iptvf.jp/platform/missing/purchase/</purchase_package_info_url>
-			<license_update_info_url>https://cdn.plala.iptvf.jp/platform/missing/mc/update/check</license_update_info_url>
+			<license_update_info_url>https://cdn.iptvf.jp/platform/missing/mc/update/check</license_update_info_url>
 			<crl_url>http://cdn.iptvf.jp/platform/missing/crl/iptvcrls.crl</crl_url>
 		</service_provider>
 	</service_provider_list>
