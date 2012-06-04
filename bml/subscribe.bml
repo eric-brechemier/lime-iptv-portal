@@ -1,0 +1,35 @@
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>Welcome to LIME IPTV Portal</title>
+    <link rel="stylesheet" href="css/tv.css" />
+  </head>
+  <body class="on-black">
+    <div class="colA row1 on-blue on-27cols on-1row"></div>
+    <p class="colA row1 white on-blue on-26cols on-1row align-center"
+      >Welcome to LIME IPTV Portal</p>
+
+    <p class="colB row3 on-18cols on-4rows align-left white"
+      >The LIME IPTV Portal provides an open entry point<br/>
+      for the development of applications or sites<br/>
+      for Next Generation Connected TVs now available<br/>
+      in Japan and other countries.</p>
+
+    <p class="colB row7 on-18cols on-1row align-left white"
+      >This is an open source project hosted on GitHub:</p>
+    <p class="colB row8 on-18cols on-1row align-left green"
+      >https://github.com/eric-brechemier/lime-iptv-portal</p>
+
+    <p class="colB row10 on-18cols on-1row align-left white"
+      >I can customize the portal for you:</p>
+    <p class="colB row11 on-18cols on-1row align-left green"
+      >Contact me: lime@eric.brechemier.name</p>
+
+    <div class="colU row3 on-5cols on-6rows dark-gray border on-purple"></div>
+    <p class="colV row3 on-3cols on-9rows align-center white large no-left-border no-top-border no-right-border- no-bottom-border">
+      Access<br/>the<br/>
+      <a href="startup.bml" class="link1">Portal</a>
+    </p>
+
+  </body>
+</bml>
