@@ -45,7 +45,7 @@
     <div class="colF row2 on-14cols on-1row">
       <input type="text"
         maxlength="40" inputmode="indirect"
-        value="192.168.0.11/bml/startup.bml"
+        value="192.168.0.11/lime/startup.bml"
         class="black border on-white on-14cols on-1row link1 above-link3 after-link4"
         id="url" onblur="updateUrl();"
       />
