@@ -62,9 +62,12 @@
     </p>
     <p class="colC row6 on-27cols on-1row">
       <a href="http://eric-brechemier.github.com/lime-starter-kit/lab/startup.bml"
-        class="blue underline link4 before-link1">LIME Starter Kit (Lab)</a>
+        class="blue underline link4">LIME Starter Kit (Lab)</a>
     </p>
-
+    <p class="colC row7 on-27cols on-1row">
+      <a href="http://kawamori.github.com/LIME-Book/startup.bml"
+        class="blue underline link5 before-link1">LIME Samples</a>
+    </p>
     <p class="colA row15 on-27cols on-10rows align-right white"
       >Contact: lime@eric.brechemier.name</p>
   </body>
