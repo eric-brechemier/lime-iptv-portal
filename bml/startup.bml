@@ -46,7 +46,7 @@
       <input type="text"
         maxlength="40" inputmode="indirect"
         value="192.168.0.11/lime/startup.bml"
-        class="black border on-white on-14cols on-1row link1 above-link3 after-link4"
+        class="black border on-white on-14cols on-1row link1 above-link3 after-link9"
         id="url" onblur="updateUrl();"
       />
     </div>
@@ -74,10 +74,21 @@
     </p>
     <p class="colC row9 on-27cols on-1row">
       <a href="http://hls.okimediaserver.com/bml/http/startup.bml"
-        class="blue underline link7 before-link1"
+        class="blue underline link7"
         >OKI's MediaServer Samples with LIME</a>
     </p>
 
+    <p class="colC row11 on-27cols on-1row">
+      Demo only until end of November 2012:
+    </p>
+    <p class="colC row12 on-27cols on-1row">
+      <a href="http://7days.ukulo.com/7days/7days-fine-arts/subscribe.bml"
+        class="pink underline link8 above-link1"
+        >7 days Fine Arts</a> &amp;
+      <a href="http://7days.ukulo.com/7days/7days-culture/subscribe.bml"
+        class="pink underline link9 before-link1"
+        >7 days Culture TV</a>
+    </p>
 
     <p class="colA row15 on-27cols on-10rows align-right white"
       >Contact: lime@eric.brechemier.name</p>
