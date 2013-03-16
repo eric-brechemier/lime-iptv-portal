@@ -47,7 +47,3 @@ SPECIAL THANKS
 
   Dr. KAWAMORI Masahito, for his precious help
 
-HISTORY
-
-  2011-XX-XX, vX.Y.Z, No History Yet
-
