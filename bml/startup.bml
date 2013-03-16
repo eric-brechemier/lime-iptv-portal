@@ -46,7 +46,7 @@
       <input type="text"
         maxlength="40" inputmode="indirect"
         value="192.168.0.11/lime/startup.bml"
-        class="black border on-white on-14cols on-1row link1 above-link3 after-link7"
+        class="black border on-white on-14cols on-1row link1 above-link3 after-link8"
         id="url" onblur="updateUrl();"
       />
     </div>
@@ -74,8 +74,13 @@
     </p>
     <p class="colC row9 on-27cols on-1row">
       <a href="http://hls.okimediaserver.com/bml/http/startup.bml"
-        class="blue underline link7 before-link1"
+        class="blue underline link7"
         >OKI's MediaServer Samples with LIME</a>
+    </p>
+    <p class="colC row10 on-27cols on-1row">
+      <a href="http://www.astem-co.co.jp/limedemo/index.xml"
+        class="blue underline link8 before-link1"
+        >ASTEM Talk Lime Home</a>
     </p>
 
 
