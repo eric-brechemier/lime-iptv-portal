@@ -84,10 +84,14 @@
     </p>
     <p class="colC row11 on-27cols on-1row">
       <a href="http://180.37.183.147/lime/index.xml"
-        class="blue underline link9 before-link1"
+        class="blue underline link9"
         >NTT Electronics LIME on Cloud</a>
     </p>
-
+    <p class="colC row12 on-27cols on-1row">
+      <a href="http://atdo.sakura.ne.jp/files/IPTV/index.xml"
+        class="blue underline link9 before-link1"
+        >ATDO (Assistive Technology Development Organization)</a>
+    </p>
 
     <p class="colA row15 on-27cols on-10rows align-right white"
       >Contact: lime@eric.brechemier.name</p>
